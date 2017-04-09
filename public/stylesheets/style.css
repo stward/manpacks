@@ -13,7 +13,6 @@ h1 {
 
 .header {
   background: #017099;
-  text-align: center;
 }
 
 .main-message {
@@ -41,9 +40,9 @@ h1 {
   background: -o-linear-gradient(#c0d302, #8ba80c);
   background: -moz-linear-gradient(#c0d302, #8ba80c);
   background: linear-gradient(#c0d302, #8ba80c);
-  padding: 10px 30px 15px 30px;
+  padding: 8px 30px 15px 30px;
   display: inline-block;
-  border-radius: 30px;
+  border-radius: 35px;
 }
 
 .action-button a {

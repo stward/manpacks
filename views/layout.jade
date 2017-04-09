@@ -6,12 +6,18 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     .header
-      img(src="images/header.jpg")
+      .container
+        .row
+          img(src="images/header.jpg")
     block content
     .footer
       h4 Follow Us
-      img.social-icon(src="images/rss-icon.png")
-      img.social-icon(src="images/twitter-icon.png")
-      img.social-icon(src="images/fb-icon.png")
-      img.social-icon(src="images/linkedin-icon.png")
+      a(href="#")
+        img.social-icon(src="images/social-icons/rss-icon.png")
+      a(href="#")
+        img.social-icon(src="images/social-icons/twitter-icon.png")
+      a(href="#")
+        img.social-icon(src="images/social-icons/fb-icon.png")
+      a(href="#")
+        img.social-icon(src="images/social-icons/linkedin-icon.png")
       .copyright Made by Co. All rights reserved. 2011
