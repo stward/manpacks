@@ -1,8 +1,7 @@
 # manpacks
 Manpacks front page - built with expressjs
 
-To get this app running, have express.js installed, run npm install from the root directory, and then "npm start" from the console.
-The app runs entirely using express.js, with some backend connection to a MongoDB database.
+To get this app running, have express.js and mongodb installed, run npm install from the root directory, and then "npm start" from the console. The app runs entirely using express.js, with some backend connection to a MongoDB database.
 
 Notes:
 
@@ -14,5 +13,5 @@ two random comments, and display them on the page in the "testimonials" section.
 The comments may be installed as a database collection by running the following command from the root directory:
 
 ```
-mongoimport --db manpacks --collection testimonials --drop  --file data/testimonials.json --jsonArray
+mongoimport --db manpacks --collection testimonials --file data/testimonials.json --jsonArray
 ```
