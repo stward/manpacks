@@ -123,3 +123,24 @@ h1 {
   padding-top: 7%;
   padding-bottom: 2%;
 }
+
+.lightgray-line {
+  height: 1px;
+  background: lightgray;
+}
+
+.testimonials img {
+  border: 3px solid white;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px #DCDCDC, -2px -3px 2px #DCDCDC, 2px -3px 2px #DCDCDC, -2px 3px 2px #DCDCDC;
+}
+.t-body {
+  color: gray;
+  font-size: larger;
+  font-style: italic;
+}
+.t-name {
+  padding-top: 3%;
+  color: #606060;
+  font-size: smaller;
+}

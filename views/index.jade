@@ -36,9 +36,18 @@ block content
           div <span class="bold">Modify, delay, or rush shipments</span> to get what you need, when you need it.
           .spacer15
           div <span class="bold">Automate routine purchases</span> and never shop for them again.
-    .row
+    .spacer15
+    .lightgray-line
+    .row.padding-five-percent-top.testimonials
       for t in testimonials
         .col-lg-6
-          img(src="images/testimonials/#{t.image}")
-          div= t.body
-          div= t.name
+          .row
+            .col-lg-1
+            .col-lg-2
+              img(src="images/testimonials/#{t.image}")
+              .spacer15
+            .col-lg-8
+              .t-body= t.body
+              .t-name - #{t.name}
+              .spacer30
+            .col-lg-1
