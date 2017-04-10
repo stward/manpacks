@@ -5,10 +5,11 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var index = require('./routes/index');
-var users = require('./routes/users');
 var Testimonial = require('./models/testimonial');
 var app = express();
+
+// var index = require('./routes/index');
+// var users = require('./routes/users');
 
 mongoose.connect('mongodb://localhost/manpacks');
 
